@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="securityAlg:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/securityAlg_jar</output-path>
+    <root id="archive" name="securityAlg.jar">
+      <element id="module-output" name="securityAlg" />
+      <element id="library" level="project" name="pdfbox-app-2.0.19" />
+      <element id="dir-copy" path="$PROJECT_DIR$/src/resource" />
+    </root>
+  </artifact>
+</component>
